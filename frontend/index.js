@@ -27,7 +27,7 @@ const soldierPlaceForm = document.getElementById("soldierPlaceForm");
 const playerColors = ["red","aqua","pink","purple"] //m2ngija 1 on punane jne
 newGameBtn.addEventListener('click', newGame);
 joinGameBtn.addEventListener('click', joinGame);
-
+console.log('gittest');
 function newGame() {
   socket.emit('newGame');
   init();
